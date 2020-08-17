@@ -1,0 +1,214 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+body {
+    background-color: #ECEEF1;
+}
+
+/* Aside CSS Styling */
+aside {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.grid-signin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p.small-type {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: end;
+    font-family: sans-serif;
+    font-size: small;
+    color: #505050;
+    margin: 0;
+    margin-top: 3px;
+    margin-right: -6rem;
+
+}
+
+p#aside-blue{
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: end;
+    align-self: end;
+    font-family: sans-serif;
+    font-size: small;
+    color: #0077C6;
+    margin: 0;
+    margin-right: -6rem;
+}
+
+button.sign-in {
+    grid-row: 1 / 2;
+    grid-column: 2;
+    justify-self: center;
+    height: 35px;
+    width: 100px;
+    background-color: #0077C6;
+    color: #FFFFFF;
+    border-color: #4C4C4C;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: sans-serif;
+    margin: 0;
+    margin-left: 5rem;
+}
+
+/* Main Column Styling */
+
+main {
+    grid-column: 2 / 3;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+
+img.main {
+    width: 115%;
+    height: auto;
+    margin: -40px;
+    margin-top: -100px;
+}
+
+.main-logo {
+    justify-self: center;
+}
+
+/* Main Sign-in Box Styling */
+
+.sign-up-wrapper {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(60px, 1fr));
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+    border-radius: 2px;
+    font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 30px;
+    width: 380px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    justify-self: center;
+    margin-top: -50px;
+}
+
+.sign-up-header {
+    justify-self: center;
+    text-align: center;
+}
+
+.sign-up-header p {
+    margin: auto;
+}
+
+.sign-up-header p#Create {
+    color: #4C4C4C;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.sign-up-header p#learn-more {
+    color: #4C4C4C;
+    font-size: 14px;
+}
+
+.sign-up-header a {
+    color: #0077C5;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* Form Styling */
+
+.sign-up-form {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 35px;
+}
+
+.sign-up-form input {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.sign-up-form input#submit-button {
+    background-color: #0077C5;
+    color: white;
+    border: none;
+    height: 3rem;
+}
+
+.sign-up-footer {
+    grid-row: 8 / 9;
+    text-align: center;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic;
+    color: #757575;
+}
+
+.sign-up-footer p.sign-up-agreements a {
+    color: #0077C5;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.sign-up-footer p.captcha {
+    background-color: #ECEEF1;
+    margin: 43px -30px -30px -30px;
+    padding: 16px;
+    text-align: center;
+    font-size: 10px;
+    color: #8d9096;
+    font-style: normal;
+}
+
+.sign-up-footer p.captcha a {
+    color: #0077C5;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/* Footer Styling */
+
+footer.footer {
+    grid-column: 1 / -1;
+    margin-top: -4rem;
+}
+
+footer.footer p {
+    justify-self: center;
+    text-align: center;
+    color: #505050;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+    font-size: 12px;
+}
+
+footer.footer a {
+    color: #505050;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+

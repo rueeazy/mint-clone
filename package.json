@@ -1,0 +1,23 @@
+{
+  "name": "mint-clone",
+  "version": "1.0.0",
+  "description": "Mint.com Signup Page Clone - HTML Forms Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rueeazy/mint-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rueeazy/mint-clone/issues"
+  },
+  "homepage": "https://github.com/rueeazy/mint-clone#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
+  }
+}
